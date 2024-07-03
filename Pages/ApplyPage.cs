@@ -17,7 +17,7 @@ namespace MiaPlazaAssignment.Pages
             this.wait = wait;
         }
 
-        public void FillParentInformation(string firstName, string lastName, string email, string phone)
+        public void FillParentInformation(string firstName, string lastName, string email, string phone, string date)
         {
             IWebElement parentFirstName = wait.Until(d => d.FindElement(ApplyPageLocators.ParentFirstName));
             parentFirstName.SendKeys(firstName);
@@ -30,6 +30,16 @@ namespace MiaPlazaAssignment.Pages
 
             IWebElement parentPhone = driver.FindElement(ApplyPageLocators.ParentPhone);
             parentPhone.SendKeys(phone);
+
+            IWebElement secondGuardianDropdown = driver.FindElement(ApplyPageLocators.DropdownInfoButton);
+            secondGuardianDropdown.Click();
+
+            IWebElement selectGuardianOption = driver.FindElement(ApplyPageLocators.OptionNoButton);
+            selectGuardianOption.Click();
+
+            IWebElement selectDate = driver.FindElement(ApplyPageLocators.SelectCalendarDate);
+            selectDate.Click();
+            selectDate.SendKeys(date);
         }
 
         public void ProceedToStudentInformation()

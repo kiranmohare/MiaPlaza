@@ -4,6 +4,9 @@ namespace MiaPlazaAssignment.Locators
 {
     public class MiaPrepPageLocators
     {
-        public static readonly By ApplyLink = By.XPath("//a[text()='Apply Now']");
+        public static readonly By ApplyToSchoolButton = By.XPath("//div[@class='wp-block-button']");
+
+        public static readonly By ByMOHSLink = By.XPath("//a[text()='ASU at MOHS']");
+
     }
 }

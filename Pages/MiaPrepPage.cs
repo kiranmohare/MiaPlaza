@@ -16,10 +16,16 @@ namespace MiaPlazaAssignment.Pages
             this.wait = wait;
         }
 
+        public void ClickASUMOHSLink()
+        {
+            IWebElement applyLink = wait.Until(d => d.FindElement(MiaPrepPageLocators.ByMOHSLink));
+            applyLink.Click();
+        }
+
         public void ApplyToMOHS()
         {
-            IWebElement applyLink = wait.Until(d => d.FindElement(MiaPrepPageLocators.ApplyLink));
-            applyLink.Click();
+            IWebElement schoolLink = wait.Until(d => d.FindElement(MiaPrepPageLocators.ApplyToSchoolButton));
+            schoolLink.Click();
         }
     }
 }

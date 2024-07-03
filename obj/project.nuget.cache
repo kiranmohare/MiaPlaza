@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "q92sJ6Uo2Xw=",
+  "dgSpecHash": "5sTCliRR0hM=",
   "success": true,
   "projectFilePath": "C:\\Users\\kiran\\Desktop\\MiaPlazaAssignment\\MiaPlazaAssignment.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,8 @@
     "C:\\Users\\kiran\\.nuget\\packages\\nunit\\3.14.0\\nunit.3.14.0.nupkg.sha512",
     "C:\\Users\\kiran\\.nuget\\packages\\nunit.analyzers\\3.9.0\\nunit.analyzers.3.9.0.nupkg.sha512",
     "C:\\Users\\kiran\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
+    "C:\\Users\\kiran\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
+    "C:\\Users\\kiran\\.nuget\\packages\\selenium.webdriver.chromedriver\\2.46.0\\selenium.webdriver.chromedriver.2.46.0.nupkg.sha512",
     "C:\\Users\\kiran\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []
